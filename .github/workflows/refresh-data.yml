@@ -1,0 +1,37 @@
+name: Refresh weather data
+
+on:
+  schedule:
+    # Every 30 minutes. GitHub disables scheduled workflows after 60 days
+    # with no repository activity — re-run manually (workflow_dispatch) or
+    # push a commit to reset the clock if runs stop firing.
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch latest weather snapshot
+        run: node scripts/fetch-data.mjs
+
+      - name: Commit changes if any
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- public/data; then
+            echo "No data changes."
+          else
+            git add public/data
+            git commit -m "chore: refresh weather snapshot"
+            git push
+          fi

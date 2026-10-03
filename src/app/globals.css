@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+/*
+ * "Glass cockpit" theme tokens. Dark (EFIS-style) is the default; a light
+ * theme is available for daytime/outdoor use via [data-theme="light"] on
+ * <html> (see ThemeToggle.tsx). Flight-category colors follow the standard
+ * aviation METAR convention, not an invented palette.
+ */
+:root {
+  --background: #0a0e14;
+  --background-elevated: #0f141d;
+  --panel: #121824;
+  --panel-border: #263040;
+  --foreground: #e7edf5;
+  --foreground-muted: #8a97a8;
+  --accent: #38bdf8;
+  --accent-strong: #0ea5e9;
+  --warn: #f5a524;
+  --danger: #ef4444;
+
+  --vfr: #22c55e;
+  --mvfr: #3b82f6;
+  --ifr: #ef4444;
+  --lifr: #d946ef;
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+:root[data-theme="light"] {
+  --background: #f3f5f8;
+  --background-elevated: #ffffff;
+  --panel: #ffffff;
+  --panel-border: #d7dde5;
+  --foreground: #10151c;
+  --foreground-muted: #576070;
+  --accent: #0284c7;
+  --accent-strong: #0369a1;
+  --warn: #b45309;
+  --danger: #dc2626;
+
+  --vfr: #16a34a;
+  --mvfr: #2563eb;
+  --ifr: #dc2626;
+  --lifr: #c026d3;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-background-elevated: var(--background-elevated);
+  --color-panel: var(--panel);
+  --color-panel-border: var(--panel-border);
+  --color-foreground: var(--foreground);
+  --color-foreground-muted: var(--foreground-muted);
+  --color-accent: var(--accent);
+  --color-accent-strong: var(--accent-strong);
+  --color-warn: var(--warn);
+  --color-danger: var(--danger);
+  --color-vfr: var(--vfr);
+  --color-mvfr: var(--mvfr);
+  --color-ifr: var(--ifr);
+  --color-lifr: var(--lifr);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  background-image:
+    radial-gradient(circle at 15% -10%, color-mix(in srgb, var(--accent) 10%, transparent), transparent 55%),
+    radial-gradient(circle at 100% 0%, color-mix(in srgb, var(--accent) 6%, transparent), transparent 45%);
+}
+
+/* Thin instrument-style corner ticks on panels, drawn with box-shadow so no extra markup is needed. */
+.instrument-frame {
+  position: relative;
+  border: 1px solid var(--panel-border);
+  background: var(--panel);
+}
+
+.instrument-frame::before,
+.instrument-frame::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  pointer-events: none;
+}
+
+.instrument-frame::before {
+  top: -1px;
+  left: -1px;
+  border-top: 2px solid var(--accent);
+  border-left: 2px solid var(--accent);
+}
+
+.instrument-frame::after {
+  bottom: -1px;
+  right: -1px;
+  border-bottom: 2px solid var(--accent);
+  border-right: 2px solid var(--accent);
+}
+
+.tabular {
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+}
