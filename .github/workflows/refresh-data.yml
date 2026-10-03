@@ -2,10 +2,13 @@ name: Refresh weather data
 
 on:
   schedule:
-    # Every 30 minutes. GitHub disables scheduled workflows after 60 days
-    # with no repository activity — re-run manually (workflow_dispatch) or
-    # push a commit to reset the clock if runs stop firing.
-    - cron: "*/30 * * * *"
+    # Every 90 minutes (cron can't express that in one line, so two entries
+    # interleave: 00:00, 03:00, ... and 01:30, 04:30, ... UTC). GitHub
+    # disables scheduled workflows after 60 days with no repository
+    # activity — re-run manually (workflow_dispatch) or push a commit to
+    # reset the clock if runs stop firing.
+    - cron: "0 0/3 * * *"
+    - cron: "30 1/3 * * *"
   workflow_dispatch: {}
 
 permissions:

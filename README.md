@@ -49,7 +49,7 @@ for live data — handled a little differently for weather vs. NOTAMs:
 - **Weather** doesn't need a session, but both of its sources (wetter-edka.de,
   and `aviationweather.gov` for TAF — whose docs explicitly disallow CORS)
   can't be called directly from the browser. A **scheduled GitHub Action**
-  (`.github/workflows/refresh-data.yml`, every 30 min) fetches both
+  (`.github/workflows/refresh-data.yml`, every 90 min) fetches both
   server-side and commits the result as static JSON under
   `public/data/<ICAO>/`. That commit triggers the deploy workflow, so the
   published site is never more than one refresh cycle stale. This snapshot
