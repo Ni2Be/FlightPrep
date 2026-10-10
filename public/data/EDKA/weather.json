@@ -1,21 +1,30 @@
 {
   "icao": "EDKA",
-  "fetchedAt": "2026-10-10T13:35:48.619Z",
+  "fetchedAt": "2026-10-10T15:10:23.342Z",
   "ok": true,
-  "error": null,
+  "error": "Couldn't find the METAR line on wetter-edka.de — page layout may have changed.",
   "metar": {
-    "raw": "EDKA 101320Z AUTO 22013KT 9999 ///////// 13/07 Q1012",
-    "obsTime": "2026-10-10T13:35:00.000Z",
-    "source": "wetter-edka.de (on-field AWS, unofficial)",
-    "flightCategory": null,
-    "windDirDeg": 220,
-    "windSpeedKt": 13,
-    "windGustKt": null,
-    "visibilitySM": 10,
-    "tempC": 13,
+    "raw": "METAR EHBK 101455Z AUTO 24011KT 200V300 9999 BKN043 BKN049 14/07 Q1011 NOSIG",
+    "obsTime": "2026-10-10T15:00:00.000Z",
+    "source": "aviationweather.gov Data API (EHBK)",
+    "tempC": 14,
     "dewpointC": 7,
-    "altimeterHpa": 1012,
-    "clouds": []
+    "windDirDeg": 240,
+    "windSpeedKt": 11,
+    "windGustKt": null,
+    "visibilitySM": 6,
+    "altimeterHpa": 1011,
+    "flightCategory": "VFR",
+    "clouds": [
+      {
+        "cover": "BKN",
+        "baseFt": 4300
+      },
+      {
+        "cover": "BKN",
+        "baseFt": 4900
+      }
+    ]
   },
   "taf": {
     "raw": "TAF EHBK 101108Z 1012/1118 24014KT 9999 SCT030 PROB30 TEMPO 1012/1113 7000 SHRA FEW020TCU BECMG 1112/1115 27010KT BECMG 1115/1118 24006KT",
