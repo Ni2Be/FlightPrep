@@ -1,24 +1,24 @@
 {
   "icao": "EDKA",
-  "fetchedAt": "2026-10-14T16:38:00.254Z",
+  "fetchedAt": "2026-10-14T18:13:37.232Z",
   "ok": true,
-  "error": "Couldn't find the METAR line on wetter-edka.de — page layout may have changed.",
+  "error": null,
   "metar": {
-    "raw": "METAR EHBK 141625Z AUTO 20005KT 9999 NSC 14/09 Q1028 NOSIG",
-    "obsTime": "2026-10-14T16:25:00.000Z",
-    "source": "aviationweather.gov Data API (EHBK)",
-    "tempC": 14,
-    "dewpointC": 9,
-    "windDirDeg": 200,
-    "windSpeedKt": 5,
+    "raw": "EDKA 141750Z AUTO VRB01KT 9999 ///////// 10/10 Q1029",
+    "obsTime": "2026-10-14T18:13:00.000Z",
+    "source": "wetter-edka.de (on-field AWS, unofficial)",
+    "flightCategory": null,
+    "windDirDeg": "VRB",
+    "windSpeedKt": 1,
     "windGustKt": null,
-    "visibilitySM": 6,
-    "altimeterHpa": 1028,
-    "flightCategory": "VFR",
+    "visibilitySM": 10,
+    "tempC": 10,
+    "dewpointC": 10,
+    "altimeterHpa": 1029,
     "clouds": []
   },
   "taf": {
-    "raw": "TAF EHBK 141031Z 1412/1518 21007KT 9999 SCT016",
+    "raw": "TAF EHBK 141701Z 1418/1524 VRB02KT CAVOK BECMG 1509/1512 23007KT",
     "source": "aviationweather.gov Data API (EHBK)"
   }
 }
