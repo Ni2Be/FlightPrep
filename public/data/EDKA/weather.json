@@ -1,18 +1,18 @@
 {
   "icao": "EDKA",
-  "fetchedAt": "2026-10-14T12:16:46.875Z",
+  "fetchedAt": "2026-10-14T13:35:56.143Z",
   "ok": true,
   "error": null,
   "metar": {
-    "raw": "EDKA 141150Z AUTO 21005KT 9999 ///////// 17/11 Q1030",
-    "obsTime": "2026-10-14T12:16:00.000Z",
+    "raw": "EDKA 141320Z AUTO 23005KT 9999 ///////// 16/11 Q1030",
+    "obsTime": "2026-10-14T13:35:00.000Z",
     "source": "wetter-edka.de (on-field AWS, unofficial)",
     "flightCategory": null,
-    "windDirDeg": 210,
+    "windDirDeg": 230,
     "windSpeedKt": 5,
     "windGustKt": null,
     "visibilitySM": 10,
-    "tempC": 17,
+    "tempC": 16,
     "dewpointC": 11,
     "altimeterHpa": 1030,
     "clouds": []
