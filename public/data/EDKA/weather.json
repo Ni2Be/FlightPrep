@@ -1,11 +1,11 @@
 {
   "icao": "EDKA",
-  "fetchedAt": "2026-10-22T00:27:35.472Z",
+  "fetchedAt": "2026-10-22T01:42:22.239Z",
   "ok": true,
   "error": null,
   "metar": {
-    "raw": "EDKA 220020Z AUTO 20017KT 9999 ///////// 07/05 Q1013",
-    "obsTime": "2026-10-22T00:27:00.000Z",
+    "raw": "EDKA 220120Z AUTO 20017KT 9999 ///////// 07/05 Q1013",
+    "obsTime": "2026-10-22T01:42:00.000Z",
     "source": "wetter-edka.de (on-field AWS, unofficial)",
     "flightCategory": null,
     "windDirDeg": 200,
