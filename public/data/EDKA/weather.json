@@ -1,21 +1,30 @@
 {
   "icao": "EDKA",
-  "fetchedAt": "2026-10-23T09:11:54.763Z",
+  "fetchedAt": "2026-10-23T10:35:34.106Z",
   "ok": true,
-  "error": null,
+  "error": "Couldn't find the METAR line on wetter-edka.de — page layout may have changed.",
   "metar": {
-    "raw": "EDKA 230850Z AUTO 15015G28KT 9999 ///////// 12/08 Q1002",
-    "obsTime": "2026-10-23T09:11:00.000Z",
-    "source": "wetter-edka.de (on-field AWS, unofficial)",
-    "flightCategory": null,
-    "windDirDeg": 150,
-    "windSpeedKt": 15,
-    "windGustKt": 28,
-    "visibilitySM": 10,
-    "tempC": 12,
+    "raw": "METAR EHBK 231025Z AUTO 17019KT 140V210 9999 BKN030 OVC035 13/08 Q1000 NOSIG",
+    "obsTime": "2026-10-23T10:25:00.000Z",
+    "source": "aviationweather.gov Data API (EHBK)",
+    "tempC": 13,
     "dewpointC": 8,
-    "altimeterHpa": 1002,
-    "clouds": []
+    "windDirDeg": 170,
+    "windSpeedKt": 19,
+    "windGustKt": null,
+    "visibilitySM": 6,
+    "altimeterHpa": 1000,
+    "flightCategory": "MVFR",
+    "clouds": [
+      {
+        "cover": "BKN",
+        "baseFt": 3000
+      },
+      {
+        "cover": "OVC",
+        "baseFt": 3500
+      }
+    ]
   },
   "taf": {
     "raw": "TAF EHBK 230509Z 2306/2412 17012KT 9999 -RADZ BKN040 PROB40 TEMPO 2306/2308 6000 RADZ BECMG 2307/2310 16015G25KT BECMG 2312/2315 22025G35KT 7000 RADZ PROB40 TEMPO 2313/2323 BKN014 TEMPO 2315/2320 22030G42KT BECMG 2322/2401 25016G26KT PROB40 TEMPO 2323/2407 4000 DZRA BKN006 BECMG 2405/2408 9999 NSW SCT040",
