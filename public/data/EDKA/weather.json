@@ -1,32 +1,28 @@
 {
   "icao": "EDKA",
-  "fetchedAt": "2026-10-24T13:33:05.520Z",
+  "fetchedAt": "2026-10-24T15:08:45.090Z",
   "ok": true,
   "error": "Couldn't find the METAR line on wetter-edka.de — page layout may have changed.",
   "metar": {
-    "raw": "METAR EHBK 241325Z AUTO 22019KT 190V260 9999 FEW027 BKN031 BKN037 12/06 Q1012 NOSIG",
-    "obsTime": "2026-10-24T13:25:00.000Z",
+    "raw": "METAR EHBK 241455Z AUTO 21017KT 9999 BKN025/// OVC029/// 11/06 Q1011 NOSIG",
+    "obsTime": "2026-10-24T15:00:00.000Z",
     "source": "aviationweather.gov Data API (EHBK)",
-    "tempC": 12,
+    "tempC": 11,
     "dewpointC": 6,
-    "windDirDeg": 220,
-    "windSpeedKt": 19,
+    "windDirDeg": 210,
+    "windSpeedKt": 17,
     "windGustKt": null,
     "visibilitySM": 6,
-    "altimeterHpa": 1012,
-    "flightCategory": "VFR",
+    "altimeterHpa": 1011,
+    "flightCategory": "MVFR",
     "clouds": [
       {
-        "cover": "FEW",
-        "baseFt": 2700
+        "cover": "BKN",
+        "baseFt": 2500
       },
       {
-        "cover": "BKN",
-        "baseFt": 3100
-      },
-      {
-        "cover": "BKN",
-        "baseFt": 3700
+        "cover": "OVC",
+        "baseFt": 2900
       }
     ]
   },
