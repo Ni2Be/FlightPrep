@@ -1,26 +1,21 @@
 {
   "icao": "EDKA",
-  "fetchedAt": "2026-11-03T00:17:28.453Z",
+  "fetchedAt": "2026-11-03T01:32:07.961Z",
   "ok": true,
-  "error": "Couldn't find the METAR line on wetter-edka.de — page layout may have changed.",
+  "error": null,
   "metar": {
-    "raw": "METAR EHBK 022355Z AUTO 02008KT 350V050 4300 BR OVC002 08/08 Q1029",
-    "obsTime": "2026-11-03T00:00:00.000Z",
-    "source": "aviationweather.gov Data API (EHBK)",
+    "raw": "EDKA 030120Z AUTO 36005KT 0800 0500 -RA FG ///////// 08/08 Q1029",
+    "obsTime": "2026-11-03T01:31:00.000Z",
+    "source": "wetter-edka.de (on-field AWS, unofficial)",
+    "flightCategory": null,
+    "windDirDeg": 360,
+    "windSpeedKt": 5,
+    "windGustKt": null,
+    "visibilitySM": 0.3,
     "tempC": 8,
     "dewpointC": 8,
-    "windDirDeg": 20,
-    "windSpeedKt": 8,
-    "windGustKt": null,
-    "visibilitySM": 2.67,
     "altimeterHpa": 1029,
-    "flightCategory": "LIFR",
-    "clouds": [
-      {
-        "cover": "OVC",
-        "baseFt": 200
-      }
-    ]
+    "clouds": []
   },
   "taf": {
     "raw": "TAF EHBK 022314Z 0300/0406 02005KT 4000 BR BKN004 PROB30 TEMPO 0300/0306 0600 FG VV001 BECMG 0307/0310 07010KT CAVOK",
