@@ -1,20 +1,20 @@
 {
   "icao": "EDKA",
-  "fetchedAt": "2026-11-12T13:31:55.886Z",
+  "fetchedAt": "2026-11-12T15:09:15.726Z",
   "ok": true,
   "error": null,
   "metar": {
-    "raw": "EDKA 121320Z AUTO 31004KT 280V340 9999 ///////// 07/05 Q1000",
-    "obsTime": "2026-11-12T13:31:00.000Z",
+    "raw": "EDKA 121450Z AUTO 31005KT 280V360 9999 ///////// 06/06 Q1001",
+    "obsTime": "2026-11-12T15:09:00.000Z",
     "source": "wetter-edka.de (on-field AWS, unofficial)",
     "flightCategory": null,
     "windDirDeg": 310,
-    "windSpeedKt": 4,
+    "windSpeedKt": 5,
     "windGustKt": null,
     "visibilitySM": 10,
-    "tempC": 7,
-    "dewpointC": 5,
-    "altimeterHpa": 1000,
+    "tempC": 6,
+    "dewpointC": 6,
+    "altimeterHpa": 1001,
     "clouds": []
   },
   "taf": {
