@@ -1,24 +1,24 @@
 {
   "icao": "EDKA",
-  "fetchedAt": "2026-11-15T04:31:44.710Z",
+  "fetchedAt": "2026-11-15T06:11:10.670Z",
   "ok": true,
   "error": null,
   "metar": {
-    "raw": "EDKA 150420Z AUTO VRB02KT 9999 ///////// 02/01 Q1008",
-    "obsTime": "2026-11-15T04:31:00.000Z",
+    "raw": "EDKA 150550Z AUTO 06004KT 9999 ///////// 03/03 Q1007",
+    "obsTime": "2026-11-15T06:11:00.000Z",
     "source": "wetter-edka.de (on-field AWS, unofficial)",
     "flightCategory": null,
-    "windDirDeg": "VRB",
-    "windSpeedKt": 2,
+    "windDirDeg": 60,
+    "windSpeedKt": 4,
     "windGustKt": null,
     "visibilitySM": 10,
-    "tempC": 2,
-    "dewpointC": 1,
-    "altimeterHpa": 1008,
+    "tempC": 3,
+    "dewpointC": 3,
+    "altimeterHpa": 1007,
     "clouds": []
   },
   "taf": {
-    "raw": "TAF EHBK 142310Z 1500/1606 12005KT CAVOK TEMPO 1505/1510 7000 -RADZ SCT008 BKN012 BECMG 1508/1511 20012KT BECMG 1515/1518 7000 RADZ PROB30 TEMPO 1516/1520 4000 -DZRA BKN012 BECMG 1519/1522 9999 NSW TEMPO 1523/1606 4000 RADZ -SHRA SCT008 BKN012 FEW015CB BECMG 1600/1603 24013KT",
+    "raw": "TAF EHBK 150456Z 1506/1612 19007KT 9999 FEW012 BKN022 PROB40 1506/1511 FEW008 BKN012 PROB30 TEMPO 1506/1511 7000 -RADZ BKN008 BECMG 1508/1511 20013KT BECMG 1515/1518 7000 RADZ BECMG 1519/1522 9999 NSW TEMPO 1522/1603 4000 DZRA -SHRA SCT008 BKN012 FEW015CB BECMG 1603/1606 24014KT SCT008 BKN012 TEMPO 1605/1612 6000 -RADZ BKN008 PROB30 TEMPO 1609/1612 7000 -SHRA FEW015TCU BKN018",
     "source": "aviationweather.gov Data API (EHBK)"
   }
 }
