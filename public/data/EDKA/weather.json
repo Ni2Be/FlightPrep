@@ -1,21 +1,34 @@
 {
   "icao": "EDKA",
-  "fetchedAt": "2026-11-16T03:10:14.121Z",
+  "fetchedAt": "2026-11-16T04:38:56.935Z",
   "ok": true,
-  "error": null,
+  "error": "Couldn't find the METAR line on wetter-edka.de — page layout may have changed.",
   "metar": {
-    "raw": "EDKA 160250Z AUTO 21016KT 180V240 9999 -SHRA ///////// 09/08 Q0997",
-    "obsTime": "2026-11-16T03:10:00.000Z",
-    "source": "wetter-edka.de (on-field AWS, unofficial)",
-    "flightCategory": null,
-    "windDirDeg": 210,
-    "windSpeedKt": 16,
-    "windGustKt": null,
-    "visibilitySM": 10,
+    "raw": "METAR EHBK 160425Z AUTO 24015KT 210V290 9999 FEW008/// SCT009/// BKN011/// 09/08 Q0998 REDZ",
+    "obsTime": "2026-11-16T04:25:00.000Z",
+    "source": "aviationweather.gov Data API (EHBK)",
     "tempC": 9,
     "dewpointC": 8,
-    "altimeterHpa": 997,
-    "clouds": []
+    "windDirDeg": 240,
+    "windSpeedKt": 15,
+    "windGustKt": null,
+    "visibilitySM": 6,
+    "altimeterHpa": 998,
+    "flightCategory": "MVFR",
+    "clouds": [
+      {
+        "cover": "FEW",
+        "baseFt": 800
+      },
+      {
+        "cover": "SCT",
+        "baseFt": 900
+      },
+      {
+        "cover": "BKN",
+        "baseFt": 1100
+      }
+    ]
   },
   "taf": {
     "raw": "TAF EHBK 152305Z 1600/1706 21010KT 9999 FEW014 BKN030 TEMPO 1600/1604 4000 SHRA RADZ SCT008 BKN012 FEW015CB BECMG 1603/1606 26013KT SCT008 BKN012 TEMPO 1604/1611 25015G25KT 6000 -RADZ BECMG 1609/1612 SCT020 BKN030 BECMG 1619/1622 17003KT BECMG 1623/1702 7000 RA BKN014 BECMG 1702/1705 10010KT",
