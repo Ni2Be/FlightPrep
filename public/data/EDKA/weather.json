@@ -1,21 +1,24 @@
 {
   "icao": "EDKA",
-  "fetchedAt": "2026-11-18T16:31:42.323Z",
+  "fetchedAt": "2026-11-18T18:08:06.148Z",
   "ok": true,
   "error": null,
   "metar": {
-    "raw": "EDKA 181620Z AUTO 21018KT 9999 ///////// 10/07 Q0990",
-    "obsTime": "2026-11-18T16:31:00.000Z",
+    "raw": "EDKA 181750Z AUTO 21016KT 9999 ///////// 10/07 Q0991",
+    "obsTime": "2026-11-18T18:07:00.000Z",
     "source": "wetter-edka.de (on-field AWS, unofficial)",
     "flightCategory": null,
     "windDirDeg": 210,
-    "windSpeedKt": 18,
+    "windSpeedKt": 16,
     "windGustKt": null,
     "visibilitySM": 10,
     "tempC": 10,
     "dewpointC": 7,
-    "altimeterHpa": 990,
+    "altimeterHpa": 991,
     "clouds": []
   },
-  "taf": null
+  "taf": {
+    "raw": "TAF EHBK 181715Z 1818/1924 24012KT 9999 BKN020 PROB30 TEMPO 1818/1822 6000 SHRA FEW015CB BECMG 1821/1824 21010KT BECMG 1902/1905 18010KT 6000 RA BECMG 1906/1909 23013KT 9999 NSW PROB40 TEMPO 1909/1924 23015G25KT 6000 SHRA FEW015CB",
+    "source": "aviationweather.gov Data API (EHBK)"
+  }
 }
