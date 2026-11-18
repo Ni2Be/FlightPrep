@@ -1,24 +1,24 @@
 {
   "icao": "EDKA",
-  "fetchedAt": "2026-11-17T22:32:21.958Z",
+  "fetchedAt": "2026-11-18T00:19:01.711Z",
   "ok": true,
   "error": null,
   "metar": {
-    "raw": "EDKA 172220Z AUTO 20020KT 9999 ///////// 10/09 Q0981",
-    "obsTime": "2026-11-17T22:32:00.000Z",
+    "raw": "EDKA 172350Z AUTO 22020KT 9999 ///////// 10/08 Q0982",
+    "obsTime": "2026-11-18T00:18:00.000Z",
     "source": "wetter-edka.de (on-field AWS, unofficial)",
     "flightCategory": null,
-    "windDirDeg": 200,
+    "windDirDeg": 220,
     "windSpeedKt": 20,
     "windGustKt": null,
     "visibilitySM": 10,
     "tempC": 10,
-    "dewpointC": 9,
-    "altimeterHpa": 981,
+    "dewpointC": 8,
+    "altimeterHpa": 982,
     "clouds": []
   },
   "taf": {
-    "raw": "TAF EHBK 171715Z 1718/1824 23015G27KT 9999 BKN025 TEMPO 1718/1801 4000 SHRA SCT018CB PROB30 TEMPO 1718/1723 24025G40KT 2500 TSRA BKN012 SCT018CB TEMPO 1803/1806 24025G40KT 4000 SHRA SCT025CB PROB40 TEMPO 1806/1820 24025G40KT 4000 SHRA FEW020CB BECMG 1820/1823 19012KT",
+    "raw": "TAF EHBK 172320Z 1800/1906 24015G25KT 9999 BKN020 TEMPO 1803/1807 24020G30KT 4000 SHRA RA FEW012 SCT015CB BKN018 PROB40 TEMPO 1807/1818 24022G34KT 4000 SHRA FEW012 FEW015CB BECMG 1821/1824 19010KT BECMG 1903/1906 16010KT 6000 RADZ",
     "source": "aviationweather.gov Data API (EHBK)"
   }
 }
