@@ -1,26 +1,21 @@
 {
   "icao": "EDKA",
-  "fetchedAt": "2026-11-23T00:19:49.000Z",
+  "fetchedAt": "2026-11-23T01:32:04.750Z",
   "ok": true,
-  "error": "Couldn't find the METAR line on wetter-edka.de — page layout may have changed.",
+  "error": null,
   "metar": {
-    "raw": "METAR EHBK 222355Z AUTO 05008KT 0500 R03/0600N FG VV000 01/01 Q1019",
-    "obsTime": "2026-11-23T00:00:00.000Z",
-    "source": "aviationweather.gov Data API (EHBK)",
-    "tempC": 1,
-    "dewpointC": 1,
-    "windDirDeg": 50,
-    "windSpeedKt": 8,
+    "raw": "EDKA 230120Z AUTO 01004KT 0200 -RA FG ///////// 00/00 Q1019",
+    "obsTime": "2026-11-23T01:31:00.000Z",
+    "source": "wetter-edka.de (on-field AWS, unofficial)",
+    "flightCategory": null,
+    "windDirDeg": 10,
+    "windSpeedKt": 4,
     "windGustKt": null,
-    "visibilitySM": 0.31,
+    "visibilitySM": 0.1,
+    "tempC": 0,
+    "dewpointC": 0,
     "altimeterHpa": 1019,
-    "flightCategory": "LIFR",
-    "clouds": [
-      {
-        "cover": "OVX",
-        "baseFt": 0
-      }
-    ]
+    "clouds": []
   },
   "taf": {
     "raw": "TAF EHBK 222315Z 2300/2406 05005KT 0200 FZFG BKN000 PROB40 2301/2312 1200 BCFG NSC BECMG 2310/2312 4000 BR BKN004 BECMG 2312/2315 9999 NSW PROB30 2318/2322 4000 BR",
