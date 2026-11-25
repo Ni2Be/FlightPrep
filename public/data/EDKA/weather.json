@@ -1,11 +1,11 @@
 {
   "icao": "EDKA",
-  "fetchedAt": "2026-11-24T22:31:38.391Z",
+  "fetchedAt": "2026-11-25T00:18:59.338Z",
   "ok": true,
   "error": null,
   "metar": {
-    "raw": "EDKA 242220Z AUTO 05009KT 9999 ///////// M02/M03 Q1017",
-    "obsTime": "2026-11-24T22:31:00.000Z",
+    "raw": "EDKA 242350Z AUTO 05009KT 020V090 9999 ///////// M02/M04 Q1017",
+    "obsTime": "2026-11-25T00:18:00.000Z",
     "source": "wetter-edka.de (on-field AWS, unofficial)",
     "flightCategory": null,
     "windDirDeg": 50,
@@ -13,12 +13,12 @@
     "windGustKt": null,
     "visibilitySM": 10,
     "tempC": -2,
-    "dewpointC": -3,
+    "dewpointC": -4,
     "altimeterHpa": 1017,
     "clouds": []
   },
   "taf": {
-    "raw": "TAF EHBK 241706Z 2418/2524 09010KT CAVOK BECMG 2512/2515 06010KT",
+    "raw": "TAF EHBK 242308Z 2500/2606 09010KT CAVOK BECMG 2512/2515 06010KT",
     "source": "aviationweather.gov Data API (EHBK)"
   }
 }
